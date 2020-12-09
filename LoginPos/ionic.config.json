@@ -1,0 +1,8 @@
+{
+  "name": "LoginPos",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

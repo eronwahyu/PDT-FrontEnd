@@ -1,0 +1,68 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Scan Kantong CN38</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card-header > 
+    <ion-card-title class="ion-text-center" color="success">APLIKASI SCAN KANTONG BC1.1</ion-card-title>
+    <ion-card-subtitle class="ion-text-center" color ="primary" >[Dev Version 18072020]</ion-card-subtitle>
+  </ion-card-header >
+  
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="4" >
+        <div class="ion-text-start" >
+          <h3><ion-img  src="assets/kantong.jpg" routerLinkActive="/pilihgudang" routerDirection="root" routerLink="/pilihgudang"></ion-img>
+          </h3>
+        </div>
+      </ion-col>
+      <ion-col size="5">
+        <div class="ion-text-end">
+          <h3><ion-img  src="assets/upload.png" routerLink="/upload"></ion-img></h3>
+        </div>
+      </ion-col>  
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="4">
+        <div class="ion-text-justify">
+          <h3><ion-img  src="assets/pembesar.png" routerLink="/cari"></ion-img></h3>
+        
+          
+        </div>
+      </ion-col>
+      <ion-col size="4">
+        <div class="ion-text-wrap">
+          <h3><ion-img  src="assets/logout.jpg" (click)="logout()"></ion-img></h3>
+         
+        </div>
+      </ion-col>
+     
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-justify">
+          <p></p>
+          <p>Petugas : CECEP SUDARAJAT
+          </p>
+          <p>Id kantor : 19000</p>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-button color="danger" (click)="logout()"  >Logout</ion-button>
+  
+    </ion-row>
+   
+  </ion-grid>
+</ion-content>
+<ion-footer >
+  <ion-item >      
+      <ion-datetime displayFormat="MM-DD-YYYY HH:mm:ss" disabled value="07-18-2020" display-timezone="utc"></ion-datetime>
+
+  </ion-item>
+</ion-footer>
+   

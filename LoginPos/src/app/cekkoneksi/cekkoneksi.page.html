@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>cekkoneksi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header>
+    <ion-toolbar [color]="networkStatus && networkStatus.connected ? 'primary' : 'dark'">
+      <ion-title>
+        Network Detection
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <div class="ion-padding">
+      <h3>Connection status: {{networkStatus && networkStatus.connected ? "Online" : "Offline"}}</h3>
+      
+    </div>
+    <ion-button type="submit" expand="block" color="primary" routerLink="/login">close</ion-button>
+  </ion-content>
+  
+  
+</ion-content>

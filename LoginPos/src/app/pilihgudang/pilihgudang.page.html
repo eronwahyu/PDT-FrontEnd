@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-row style="border-bottom: groove;">
+      <ion-col size="1.2" >
+        <div  >
+          <ion-img  src="assets/gudang.jpg"></ion-img>
+        </div>
+      </ion-col>
+      <ion-col >
+        <div class="ion-text-mid">
+          
+          <ion-title>PILIH GUDANG</ion-title>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-row>
+    <ion-col>
+    
+      <label class="item item-input">
+        <i class="icon ion-search"></i>
+        <input type="text" placeholder="cari"/>
+      </label>
+     
+    </ion-col>
+  <ion-col size="2">
+    <ion-img   src="assets/pembesar.png"></ion-img>
+  </ion-col>
+  </ion-row>
+    
+  <h3></h3>
+   
+  <ion-row style="border-bottom: groove;" >
+    <ion-col  >
+    <ion-label size="1.2" >Nama Gudang </ion-label>
+    
+  </ion-col>
+  <ion-col >
+    <ion-label >Barang</ion-label>
+  </ion-col>
+   
+</ion-row>
+<ion-row style="border-bottom: groove;"  routerLink="/pilihbc">
+  <ion-col>
+  <ion-label size="1.2" >CIMB</ion-label>
+</ion-col>
+<ion-col>
+  <ion-label >Gudang Jas</ion-label>
+</ion-col>
+ 
+</ion-row>
+<ion-row style="border-bottom: groove;" routerLink="/pilihbc">
+  <ion-col >
+  <ion-label >CIMP</ion-label>
+</ion-col>
+<ion-col  >
+  <ion-label >Gudang GARUDA</ion-label>
+</ion-col>
+ 
+</ion-row>
+<ion-footer>
+  <ion-button color="danger" routerLink="/home" >Menu</ion-button>
+</ion-footer>
+</ion-content>
