@@ -1,0 +1,7 @@
+{
+  "name": "pdt",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
